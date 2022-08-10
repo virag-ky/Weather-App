@@ -66,6 +66,10 @@ Give a ⭐️ if you like this project!
 - **[React Accessible Accordion](https://www.npmjs.com/package/react-accessible-accordion)**: React Component for creating an 'Accordion' that adheres to the [WAI ARIA spec](https://www.w3.org/WAI/ARIA/apg/#accordion) for accessibility.
 - **[React Select Async Paginate](https://www.npmjs.com/package/react-select-async-paginate)**: Wrapper above `react-select` that supports pagination on menu scroll.
 
+### New things I learned:
+
+- [Debounce Timeout](https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
