@@ -11,6 +11,11 @@
 - API
 - linters
 
+## API:
+
+- [GeoDB Cities](https://rapidapi.com/wirefreethought/api/geodb-cities/)
+- [Open Weather API](https://openweathermap.org/current)
+
 ## Deployment:
 
 ## Demo
@@ -69,6 +74,7 @@ Give a ⭐️ if you like this project!
 ### New things I learned:
 
 - [Debounce Timeout](https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086)
+- [allowZeroExpanded](https://github.com/springload/react-accessible-accordion): Allow the only remaining expanded item to be collapsed.
 
 ## 📝 License
 

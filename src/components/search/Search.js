@@ -6,18 +6,14 @@ import { GEO_API_URL, geoApiOptions } from '../../api';
 const Search = ({ onSearchChange }) => {
   const [search, setSearch] = useState(null);
 
-  const loadOptions = (inputValue) => fetch(
-    `${GEO_API_URL}/cities?minPopulation=1000000&namePrefix=${inputValue}`,
-    geoApiOptions,
-  )
+  const loadOptions = (inputValue) => fetch(`${GEO_API_URL}/cities?&namePrefix=${inputValue}`, geoApiOptions)
     .then((response) => response.json())
     .then((response) => ({
       options: response.data.map((city) => ({
         value: `${city.latitude} ${city.longitude}`,
         label: `${city.name}, ${city.countryCode}`,
       })),
-    }))
-    .catch((err) => console.error(err));
+    }));
 
   const handleChange = (data) => {
     setSearch(data);

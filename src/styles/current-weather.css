@@ -4,11 +4,12 @@
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   color: #fff;
   background: #333;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 30px auto;
   padding: 0 20px 20px 20px;
 }
 
-.top, .bottom {
+.top,
+.bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
