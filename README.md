@@ -19,6 +19,7 @@
 - [Open Weather API](https://openweathermap.org/current)
 
 ## Deployment:
+### https://virag-ky-weather-app.netlify.app/
 
 ## Demo
 ![screencapture-localhost-3000-2022-08-11-15_57_40](https://user-images.githubusercontent.com/79658534/184138642-ad419c03-b64c-4726-ac07-a94feb18dbe1.png)
