@@ -20,18 +20,14 @@ const App = () => {
       `${WEATHER_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=4013973d14ddc41cfd9a743344bdcedd&units=metric`,
     );
 
-    Promise.all([currentWeatherFetch, forecastFetch])
-      .then(async (response) => {
-        const weatherResponse = await response[0].json();
-        const forecastResponse = await response[1].json();
+    Promise.all([currentWeatherFetch, forecastFetch]).then(async (response) => {
+      const weatherResponse = await response[0].json();
+      const forecastResponse = await response[1].json();
 
-        setCurrentWeather({ city: data.label, ...weatherResponse });
-        setForecast({ city: data.label, ...forecastResponse });
-      })
-      .catch((err) => console.log(err));
+      setCurrentWeather({ city: data.label, ...weatherResponse });
+      setForecast({ city: data.label, ...forecastResponse });
+    });
   };
-
-  console.log(currentWeather, forecast);
 
   return (
     <div className="App">

@@ -10,3 +10,9 @@ body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   background: #d5d4d4;
 }
+
+@media (max-width: 900px) {
+  body {
+    padding: 50px 10px;
+  }
+}
