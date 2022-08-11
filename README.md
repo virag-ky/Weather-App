@@ -1,6 +1,8 @@
 # Weather App
 
->
+> This is a weather app where the user can search by citites and get the current / forecast weather.
+> The weather data includes: temperature, wind speed, humidity, clouds, pressure, feels like.
+>The project was built by following this tutorial [React JS Tutorial – Build a Weather App With Cities Autocomplete](https://www.youtube.com/watch?v=Reny0cTTv24&t=36s).
 
 ## Built With
 
@@ -19,6 +21,8 @@
 ## Deployment:
 
 ## Demo
+![screencapture-localhost-3000-2022-08-11-15_57_40](https://user-images.githubusercontent.com/79658534/184138642-ad419c03-b64c-4726-ac07-a94feb18dbe1.png)
+
 
 ## Getting Started
 
@@ -76,6 +80,4 @@ Give a ⭐️ if you like this project!
 - [Debounce Timeout](https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086)
 - [allowZeroExpanded](https://github.com/springload/react-accessible-accordion): Allow the only remaining expanded item to be collapsed.
 
-## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
